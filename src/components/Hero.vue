@@ -34,7 +34,7 @@
 </script>
 <style lang="scss">
 	.hero {
-		padding-top: 10rem;
+		padding-top: 15rem;
 		padding-bottom: 10rem;
 		position: relative;
 	
