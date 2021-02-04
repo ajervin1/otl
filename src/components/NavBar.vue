@@ -17,7 +17,7 @@
 			
 			</div>
 			<div class="ml-md-4">
-				<button class="btn btn-primary">
+				<button class="btn btn-primary shadow">
 					<i class="fa fa-phone"></i>
 					Request An Appointment (651-208-4535)
 				</button>

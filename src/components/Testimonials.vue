@@ -13,7 +13,7 @@
 						<img src="https://ld-wp73.template-help.com/wordpress/prod_5718/v2/wp-content/uploads/2019/10/testimonials-1.png"
 						     class="transition-3d-hover">
 						<h3 class="text-white">Anthony Ervin</h3>
-						<p>
+						<p class="">
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 						</p>
 					</article>

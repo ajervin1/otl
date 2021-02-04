@@ -9,7 +9,7 @@
 			
 			<div class="row">
 				<div class="col-md-4 mb-4 mb-md-0 aos-animate" data-aos="fade-up" v-for="x in 3">
-					<article class="card">
+					<article class="card shadow">
 						<img src="https://ld-wp73.template-help.com/wordpress/prod_5718/v2/wp-content/uploads/2019/10/img19-1170x780-1170x650.jpg"
 						     class="card-img-top transition-zoom-hover">
 						<div class="card-body">
