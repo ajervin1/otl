@@ -16,8 +16,8 @@
 							<h3 class="">Chronic Muscle Pains</h3>
 							<div class="details mb-3">
 								<span class="mr-1 text-primary ">admin </span>
-								<span class="mr-1 text-success ml-2">October 1, 2019 </span>
-								<span class="text-primary text-success ml-2">
+								<span class="mr-1 text-primary ml-2">October 1, 2019 </span>
+								<span class="text-primary ml-2">
 								<i class="fa fa-comments"></i>
 								2
 							</span>
