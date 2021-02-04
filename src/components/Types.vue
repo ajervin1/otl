@@ -12,7 +12,7 @@
 				</article>
 			</div>
 		</div>
-		<div class="text-center mt-6">
+		<div class="text-center mt-4">
 			<button class="btn btn-primary">View All Services</button>
 		</div>
 	</section>

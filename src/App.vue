@@ -2,7 +2,7 @@
 	<div id="app" class="">
 		<NavBar />
 		<Hero />
-		<Welcome />
+		<Welcome class="mb-4" />
 		<Coupon />
 		<Types />
 		<Testimonials class="py-10" />
@@ -29,6 +29,3 @@
 	}
 </script>
 
-<style lang="scss">
-
-</style>

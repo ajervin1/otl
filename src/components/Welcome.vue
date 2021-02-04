@@ -2,7 +2,7 @@
 	<section class="container">
 		<div class="py-10 row justify-content-center">
 			<div class="col-6 text-center">
-				<h2 class="mb-5">Welcome To Out Site</h2>
+				<h2 class="mb-5">Welcome To Our Site</h2>
 				<p class="lead">
 					When one of our founders, Peter Stevenson was choosing between a regular medical
 					career and a work path of the practicing physiotherapist, he based his choice on
