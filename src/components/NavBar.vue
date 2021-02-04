@@ -1,41 +1,41 @@
 <template>
-	<nav class="navbar navbar-expand-lg navbar-light bg-light py-5 align-items-center">
-		<a class="navbar-brand" href="#">
-			<img width="200px" src="https://ld-wp73.template-help.com/wordpress/prod_5718/v2/wp-content/uploads/2019/10/Retina_Logo1.png" class="">
-		</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse"
-		        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-		        aria-expanded="false" aria-label="Toggle navigation">
+	<nav class="navbar navbar-light navbar-expand-lg bg-white fixed-top py-4 px-4">
+		<div class="logo">
+			<img src="https://themesberg.com/docs/spaces/assets/brand/dark.svg" height="30px">
+		</div>
+		<button class="navbar-toggler" data-toggle="collapse" data-target="#navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		
-		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav ml-auto">
+		<div class="collapse navbar-collapse" id="navigation">
+			<!--Nav Right-->
+			<div class="ml-auto nav-right d-flex align-items-center">
+				<nav class="navbar-nav d-flex">
+					<a href="" class="nav-item nav-link" v-for="link in links">{{ link }}</a>
 				
-				<li class="nav-item">
-					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-				</li>
-				
-				<li class="nav-item">
-					<a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
-				</li>
-				
-				<li class="nav-item mr-4">
-					<a class="nav-link" href="#">Blog</a>
-				</li>
-				
-				<li class="nav-item">
-					<button class="btn btn-primary">Request An Appointment</button>
-				</li>
-			</ul>
-		
+				</nav>
+			
+			</div>
+			<div class="ml-md-4">
+				<button class="btn btn-primary">
+					<i class="fa fa-phone"></i>
+					Request An Appointment (651-208-4535)
+				</button>
+			</div>
 		</div>
+		
+	
 	</nav>
 </template>
 
 <script>
 	export default {
 		name: 'NavBar',
-		
+		data () {
+			return {
+				links: [ 'Home', 'About Us', 'Services', 'Blog', 'Contacts' ],
+				
+			}
+		},
 	}
 </script>

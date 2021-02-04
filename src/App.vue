@@ -1,31 +1,40 @@
 <template>
-	<div id="app" class="">
+	<div>
 		<NavBar />
 		<Hero />
-		<Welcome class="mb-4" />
+		<Welcome />
 		<Coupon />
-		<Types />
-		<Testimonials class="py-10" />
-		<BlogEntries />
+		<Categories />
+		<Testimonials />
+		<Blog />
 		<Footer />
 	</div>
 </template>
 
 <script>
-	
-	
-	import NavBar from './components/NavBar'
+
+
+
 	import Hero from './components/Hero'
+	import NavBar from './components/NavBar'
+	import Blog from './components/Blog'
+	import Footer from './components/Footer'
 	import Welcome from './components/Welcome'
 	import Coupon from './components/Coupon'
-	import Types from './components/Types'
+	import Categories from './components/Categories'
 	import Testimonials from './components/Testimonials'
-	import BlogEntries from './components/BlogEntries'
-	import Footer from './components/Footer'
-	
+
 	export default {
 		name: 'App',
-		components: { Footer, BlogEntries, Testimonials, Types, Coupon, Welcome, Hero, NavBar },
+		components: { Testimonials, Categories, Coupon, Welcome, Footer, Blog, NavBar, Hero },
+		data () {
+			return {}
+		},
 	}
 </script>
-
+<style lang="scss">
+	@import "node_modules/bootstrap/scss/bootstrap";
+	.d {
+		border: 2px #ff0000 solid;
+	}
+</style>
