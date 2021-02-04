@@ -1,5 +1,5 @@
 <template>
-	<section class="jumbotron">
+	<section class=" py-7">
 		<h2 class="text-center mb-5">Recent Blog Entries</h2>
 		<div class="row">
 			<div class="col-4" v-for="x in 3">
