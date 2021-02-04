@@ -1,5 +1,5 @@
 <template>
-	<section class="blog py-10 bd-gray-200">
+	<section class="blog py-15 bd-gray-200">
 		<div class="container">
 			<div class="row justify-content-center mb-4">
 				<div class="col-md-8 text-center">

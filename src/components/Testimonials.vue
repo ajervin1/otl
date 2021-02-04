@@ -1,7 +1,8 @@
 <template>
-	<section class="testimonials py-10 position-relative hero-image jarallax" data-jarallax data-speed="0.2">
+	<section class="testimonials py-20 position-relative hero-image jarallax" data-jarallax
+	         data-speed="0.1">
 		<div class="overlay"></div>
-		<div class="container aos-animate" data-aos="fade-up" >
+		<div class="container aos-animate" data-aos="fade-up">
 			<div class="row justify-content-center mb-4">
 				<div class="col-8 text-center">
 					<h2 class="text-white">Testimonials</h2>
@@ -14,7 +15,9 @@
 						     class="transition-3d-hover">
 						<h3 class="text-white">Anthony Ervin</h3>
 						<p class="">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+							I had been struggling with the various types and intensities of back
+							pains for all of my adult life. Thank God one of my friends referred me
+							here…
 						</p>
 					</article>
 				</div>

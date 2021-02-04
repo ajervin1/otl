@@ -1,5 +1,5 @@
 <template>
-	<section class="categories py-10 bd-gray-100">
+	<section class="categories py-15 bd-gray-100">
 		<div class="container">
 			<div class="top row justify-content-center mb-5">
 				<div class="col-md-8 text-center">
@@ -22,8 +22,8 @@
 					</article>
 				</div>
 			</div>
-			<div class="text-md-center">
-				<button class="btn btn-secondary btn-big shadow">
+			<div class="text-md-center mt-4">
+				<button class="btn btn-secondary btn-big btn-lg shadow">
 					<i class="fa fa-cog"></i>
 					View Services</button>
 			</div>

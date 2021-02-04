@@ -1,5 +1,5 @@
 <template>
-	<section id="hero" class="hero mt-9 bg-primary hero-image jarallax"  data-jarallax data-speed="0.5">
+	<section id="hero" class="hero mt-9 bg-primary hero-image jarallax"  data-jarallax data-speed="0.1">
 		<div class="overlay"></div>
 		
 		<div class="container">
@@ -42,7 +42,7 @@
 	.hero-image {
 		background-image: url("https://demo.themesberg.com/bootstrap/spaces/assets/img/hero-1.jpg");
 		background-repeat: no-repeat;
-		background-position: center center;
+		background-position: top center;
 		background-size: cover;
 	}
 	
